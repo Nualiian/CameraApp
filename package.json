@@ -10,6 +10,7 @@
   "dependencies": {
     "react": "~15.4.1",
     "react-native": "0.42.3",
+    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
     "react-navigation": "^1.0.0-beta.7"
   },
   "devDependencies": {

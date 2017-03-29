@@ -8,8 +8,7 @@ let styles = StyleSheet.create({
 		backgroundColor: '#F5FCFF'
 	},
 	menu: {
-		marginTop: 100,
-		textAlign: 'center'
+		marginTop: 100
 	},
 	menuItem: {
 		marginTop: 20
