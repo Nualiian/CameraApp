@@ -1,9 +1,11 @@
+'use strict';
+
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Text, View, Image, Button } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
 class SettingsScreen extends React.Component {
-	static NavigationOptions = {
+	static navigationOptions = {
 		title: 'Settings'
 	};
 
@@ -15,32 +17,41 @@ class SettingsScreen extends React.Component {
 }
 
 export default class HomeScreen extends React.Component {
+	// static navigationOptions = {
+	//   title: 'Welcome',
+	// };
+
 	render() {
 		const { navigate } = this.props.navigation;
 
 		return (
 			<View style={styles.container}>
-			<Image
-			source={ require('./assets/images/logo.png') }
-			/>
+				<Image
+					source={ require('./assets/images/logo.png') }
+				/>
 
-			<View style={styles.menu}>
-			<Button
-			style={styles.menuItem}
-			title="Settings"
-			onPress={ () => navigate('Settings') }
-			/>
+				<View style={styles.menu}>
+					<Button
+						style={styles.menuItem}
+						title="Camera"
+						color="#841584"
+						onPress={ () => navigate('Camera') }
+					/>
 
-			<Text style={styles.menuItem}>
-			Settings
-			</Text>
+					<Button
+						style={styles.menuItem}
+						title="Settings"
+						onPress={ () => navigate('Settings') }
+					/>
 
-			<Text style={styles.menuItem}>
-			About
-			</Text>
+					<Button
+						style={styles.menuItem}
+						title="About"
+						onPress={ () => navigate('About') }
+					/>
+				</View>
 			</View>
-			</View>
-			);
+		);
 	}
 }
 
@@ -51,7 +62,7 @@ const CameraApp = StackNavigator({
 
 const styles = StyleSheet.create({
 	container: {
-		marginTop: 100,
+		paddingTop: 100,
 		flex: 1,
 		alignItems: 'center',
 		backgroundColor: '#F5FCFF'
@@ -60,10 +71,9 @@ const styles = StyleSheet.create({
 		marginTop: 100
 	},
 	menuItem: {
-		paddingTop: 20,
-
+		marginBottom: 20,
 		textAlign: 'center',
-		fontSize: 25,
+		fontSize: 25
 	},
 	instructions: {
 		textAlign: 'center',
