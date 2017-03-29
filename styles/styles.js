@@ -15,6 +15,21 @@ let styles = StyleSheet.create({
 	},
 	menuItemtext: {
 		fontSize: 25
+	},
+	settingsList: {
+		paddingBottom: 20,
+		margin: 10
+	},
+	settingsCell: {
+		paddingTop: 50,
+		alignItems: 'center'
+	},
+	cellViewText: {
+		fontSize: 25
+	},
+	customSlider: {
+		width: 200,
+		height: 50
 	}
 });
 
