@@ -11,9 +11,9 @@ import HomeScreen from './screens/HomeScreen.js';
 import CameraScreen from './screens/CameraScreen.js';
 
 const CameraApp = StackNavigator({
-  Home: { screen: HomeScreen },
-  Settings: { screen: SettingsScreen },
-  Camera: { screen: CameraScreen }
+	Home: { screen: HomeScreen },
+	Settings: { screen: SettingsScreen },
+	Camera: { screen: CameraScreen }
 });
 
 AppRegistry.registerComponent('CameraApp', () => CameraApp);
