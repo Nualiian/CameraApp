@@ -10,17 +10,20 @@ export default class CameraScreen extends React.Component {
 		title: 'Camera'
 	};
 
+	state = {
+		cameraType: Camera.constants.Type.back
+	}
+
 	render() {
 		return(
-			<View style={styles.container}>
-				<Camera
-					ref={(cam) => {
-						this.camera = cam;
-					}}
-					style={styles.preview}
-					aspect={Camera.constants.Aspect.fill}>
-				</Camera>
-			</View>
+			<Camera
+				ref={(cam) => {
+					this.camera = cam;
+				}}
+				style={styles.camera}
+				aspect={Camera.constants.Aspect.fill}
+				type={this.state.cameraType}>
+			</Camera>
 		);
 	}
 }

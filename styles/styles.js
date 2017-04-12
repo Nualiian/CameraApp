@@ -30,6 +30,12 @@ let styles = StyleSheet.create({
 	customSlider: {
 		width: 200,
 		height: 50
+	},
+	camera: {
+		flex: 1,
+		justifyContent: 'flex-end',
+		alignItems: 'center',
+		backgroundColor: "transparent"
 	}
 });
 
