@@ -32,10 +32,14 @@ let styles = StyleSheet.create({
 		height: 50
 	},
 	camera: {
-		flex: 1,
-		justifyContent: 'flex-end',
-		alignItems: 'center',
-		backgroundColor: "transparent"
+		backgroundColor: 'transparent',
+		height: 200
+	},
+	cameraText: {
+		color: '#FFF'
+	},
+	cameraStream: {
+		height: 200
 	}
 });
 

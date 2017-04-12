@@ -1,7 +1,7 @@
 'use strict';
 
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, Switch } from 'react-native';
+import { StyleSheet, Text, View, Switch, Image } from 'react-native';
 import styles from '../styles/styles.js';
 import Camera from 'react-native-camera';
 
@@ -10,8 +10,27 @@ export default class CameraScreen extends React.Component {
 		title: 'Camera'
 	};
 
-	state = {
-		cameraType: Camera.constants.Type.back
+	constructor() {
+		super();
+		
+		this.state = {
+			cameraType: Camera.constants.Type.back,
+			frame: 1
+		}
+	}
+
+	componentDidMount() {
+		setInterval(() => {
+			let frame = this.state.frame;
+
+			frame++;
+
+			if (frame > 149) {
+				frame = 1;
+			}
+
+			this.setState({frame});
+		}, 1000);
 	}
 
 	render() {
@@ -23,6 +42,9 @@ export default class CameraScreen extends React.Component {
 				style={styles.camera}
 				aspect={Camera.constants.Aspect.fill}
 				type={this.state.cameraType}>
+
+				<Text style={styles.cameraText}>Frame: {this.state.frame}</Text>
+				<Image style={styles.cameraStream} source={{uri: `./gifs/${this.state.frame}.gif`}}/>
 			</Camera>
 		);
 	}

@@ -34,13 +34,16 @@ class CustomSlider extends React.Component {
 }
 
 export default class SettingsScreen extends React.Component {
+	constructor(props) {
+		super(props);
+		
+		this.state = {
+			trueSwitchIsOn: true,
+			falseSwitchIsOn: false
+		};
+	}
 	static navigationOptions = {
 		title: 'Settings'
-	};
-
-	state = {
-		trueSwitchIsOn: true,
-		falseSwitchIsOn: false
 	};
 
 	render() {
