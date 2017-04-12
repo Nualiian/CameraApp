@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Use the camera</string>
+	<string>App uses the camera to display the AR</string>
 	<key>CFBundleDisplayName</key>
 	<string>CameraApp</string>
 	<key>CFBundleExecutable</key>
