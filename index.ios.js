@@ -9,9 +9,7 @@ import SettingsScreen from './screens/SettingsScreen.js';
 import HomeScreen from './screens/HomeScreen.js';
 import CameraScreen from './screens/CameraScreen.js';
 
-import Camera from 'react-native-openalpr';
-const CameraManager = NativeModules.ALPRCameraManager;
-console.log(CameraManager);
+import CameraClass = require('NativeModules').CameraClass;
 
 const CameraApp = StackNavigator({
 	Home: { screen: HomeScreen },
