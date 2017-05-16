@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
-    "launchAndroid": "react-native run-android"
+    "launchAndroid": "react-native run-android",
+    "launchios": "react-native run-ios"
   },
   "dependencies": {
     "react": "~15.4.1",
     "react-native": "0.42.3",
     "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
+    "react-native-openalpr": "^1.0.6",
     "react-navigation": "^1.0.0-beta.7"
   },
   "devDependencies": {

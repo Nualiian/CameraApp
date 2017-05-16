@@ -37,6 +37,17 @@
 		3C4118885F614474ACEB5896 /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F79B3CFAA07242CAB58E50EE /* libRCTCamera.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		8C34021E43FD411BA4A156FD /* libRNOpenAlpr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3D8BA36E3B4A60932A1C1F /* libRNOpenAlpr.a */; };
+		BD3E352C1EAE0DA500DC1FB9 /* leptonica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E35281EAE0DA500DC1FB9 /* leptonica.framework */; };
+		BD3E352D1EAE0DA500DC1FB9 /* openalpr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E35291EAE0DA500DC1FB9 /* openalpr.framework */; };
+		BD3E352E1EAE0DA500DC1FB9 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E352A1EAE0DA500DC1FB9 /* opencv2.framework */; };
+		BD3E352F1EAE0DA500DC1FB9 /* tesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E352B1EAE0DA500DC1FB9 /* tesseract.framework */; };
+		BD3E35301EAE0E9400DC1FB9 /* leptonica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E35281EAE0DA500DC1FB9 /* leptonica.framework */; };
+		BD3E35311EAE0E9400DC1FB9 /* openalpr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E35291EAE0DA500DC1FB9 /* openalpr.framework */; };
+		BD3E35321EAE0E9400DC1FB9 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E352A1EAE0DA500DC1FB9 /* opencv2.framework */; };
+		BD3E35331EAE0E9400DC1FB9 /* tesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E352B1EAE0DA500DC1FB9 /* tesseract.framework */; };
+		BD3E35361EAE0F3600DC1FB9 /* openalpr.conf in Resources */ = {isa = PBXBuildFile; fileRef = BD3E35341EAE0F3600DC1FB9 /* openalpr.conf */; };
+		BD3E35371EAE0F3600DC1FB9 /* runtime_data in Resources */ = {isa = PBXBuildFile; fileRef = BD3E35351EAE0F3600DC1FB9 /* runtime_data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -229,6 +240,13 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		BD3E35261EAE0D1C00DC1FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C880534B2E6C40EAB7671986 /* RNOpenAlpr.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNOpenAlpr;
+		};
 		BDAC05091E9D70A3006F7CAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E8E79FAF5DD74E259EDFCABA /* RCTCamera.xcodeproj */;
@@ -263,6 +281,14 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		8C3D8BA36E3B4A60932A1C1F /* libRNOpenAlpr.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNOpenAlpr.a; sourceTree = "<group>"; };
+		BD3E35281EAE0DA500DC1FB9 /* leptonica.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = leptonica.framework; sourceTree = "<group>"; };
+		BD3E35291EAE0DA500DC1FB9 /* openalpr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openalpr.framework; sourceTree = "<group>"; };
+		BD3E352A1EAE0DA500DC1FB9 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		BD3E352B1EAE0DA500DC1FB9 /* tesseract.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tesseract.framework; sourceTree = "<group>"; };
+		BD3E35341EAE0F3600DC1FB9 /* openalpr.conf */ = {isa = PBXFileReference; lastKnownFileType = text; name = openalpr.conf; path = openalpr.framework/openalpr.conf; sourceTree = "<group>"; };
+		BD3E35351EAE0F3600DC1FB9 /* runtime_data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = runtime_data; path = openalpr.framework/runtime_data; sourceTree = "<group>"; };
+		C880534B2E6C40EAB7671986 /* RNOpenAlpr.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNOpenAlpr.xcodeproj; path = "../node_modules/react-native-openalpr/ios/RNOpenAlpr.xcodeproj"; sourceTree = "<group>"; };
 		E8E79FAF5DD74E259EDFCABA /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
 		F79B3CFAA07242CAB58E50EE /* libRCTCamera.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTCamera.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -287,11 +313,16 @@
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
+				BD3E352F1EAE0DA500DC1FB9 /* tesseract.framework in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
+				BD3E352E1EAE0DA500DC1FB9 /* opencv2.framework in Frameworks */,
+				BD3E352C1EAE0DA500DC1FB9 /* leptonica.framework in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				BD3E352D1EAE0DA500DC1FB9 /* openalpr.framework in Frameworks */,
 				3C4118885F614474ACEB5896 /* libRCTCamera.a in Frameworks */,
+				8C34021E43FD411BA4A156FD /* libRNOpenAlpr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +345,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3E35301EAE0E9400DC1FB9 /* leptonica.framework in Frameworks */,
+				BD3E35311EAE0E9400DC1FB9 /* openalpr.framework in Frameworks */,
+				BD3E35321EAE0E9400DC1FB9 /* opencv2.framework in Frameworks */,
+				BD3E35331EAE0E9400DC1FB9 /* tesseract.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +494,7 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				E8E79FAF5DD74E259EDFCABA /* RCTCamera.xcodeproj */,
+				C880534B2E6C40EAB7671986 /* RNOpenAlpr.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -475,6 +511,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				BD3E35341EAE0F3600DC1FB9 /* openalpr.conf */,
+				BD3E35351EAE0F3600DC1FB9 /* runtime_data */,
+				BD3E35281EAE0DA500DC1FB9 /* leptonica.framework */,
+				BD3E35291EAE0DA500DC1FB9 /* openalpr.framework */,
+				BD3E352A1EAE0DA500DC1FB9 /* opencv2.framework */,
+				BD3E352B1EAE0DA500DC1FB9 /* tesseract.framework */,
 				13B07FAE1A68108700A75B9A /* CameraApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* CameraAppTests */,
@@ -491,6 +533,14 @@
 				00E356EE1AD99517003FC87E /* CameraAppTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* CameraApp-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* CameraApp-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD3E35091EAE0D1C00DC1FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E35271EAE0D1C00DC1FB9 /* libRNOpenAlpr.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -666,6 +716,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = BD3E35091EAE0D1C00DC1FB9 /* Products */;
+					ProjectRef = C880534B2E6C40EAB7671986 /* RNOpenAlpr.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -854,6 +908,13 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		BD3E35271EAE0D1C00DC1FB9 /* libRNOpenAlpr.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNOpenAlpr.a;
+			remoteRef = BD3E35261EAE0D1C00DC1FB9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		BDAC050A1E9D70A3006F7CAA /* libRCTCamera.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -875,6 +936,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3E35361EAE0F3600DC1FB9 /* openalpr.conf in Resources */,
+				BD3E35371EAE0F3600DC1FB9 /* runtime_data in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -1003,12 +1066,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
 				);
 				INFOPLIST_FILE = CameraAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1029,12 +1094,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
 				);
 				INFOPLIST_FILE = CameraAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1054,9 +1121,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = TKN36YX4Y2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
 				);
 				INFOPLIST_FILE = CameraApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1078,9 +1150,14 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TKN36YX4Y2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
 				);
 				INFOPLIST_FILE = CameraApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1110,11 +1187,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
 				);
 				INFOPLIST_FILE = "CameraApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1144,11 +1223,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
 				);
 				INFOPLIST_FILE = "CameraApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1173,11 +1254,16 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "CameraApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CameraApp-tvOSTests";
@@ -1198,11 +1284,16 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "CameraApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CameraApp-tvOSTests";
