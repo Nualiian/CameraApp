@@ -1,6 +1,6 @@
 'use strict';
 
-import React, { Component } from 'react';
+import React from 'react';
 import { AppRegistry, StyleSheet, Text, View, Image, Button, TouchableHighlight } from 'react-native';
 import styles from '../styles/styles.js';
 
