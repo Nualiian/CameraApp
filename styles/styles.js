@@ -33,7 +33,7 @@ let styles = StyleSheet.create({
 	},
 	camera: {
 		backgroundColor: 'transparent',
-		height: 200
+		height: 400
 	},
 	cameraText: {
 		color: '#FFF'

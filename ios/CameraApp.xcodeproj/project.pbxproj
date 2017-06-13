@@ -38,16 +38,12 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8C34021E43FD411BA4A156FD /* libRNOpenAlpr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3D8BA36E3B4A60932A1C1F /* libRNOpenAlpr.a */; };
-		BD3E352C1EAE0DA500DC1FB9 /* leptonica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E35281EAE0DA500DC1FB9 /* leptonica.framework */; };
-		BD3E352D1EAE0DA500DC1FB9 /* openalpr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E35291EAE0DA500DC1FB9 /* openalpr.framework */; };
-		BD3E352E1EAE0DA500DC1FB9 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E352A1EAE0DA500DC1FB9 /* opencv2.framework */; };
-		BD3E352F1EAE0DA500DC1FB9 /* tesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E352B1EAE0DA500DC1FB9 /* tesseract.framework */; };
-		BD3E35301EAE0E9400DC1FB9 /* leptonica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E35281EAE0DA500DC1FB9 /* leptonica.framework */; };
-		BD3E35311EAE0E9400DC1FB9 /* openalpr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E35291EAE0DA500DC1FB9 /* openalpr.framework */; };
-		BD3E35321EAE0E9400DC1FB9 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E352A1EAE0DA500DC1FB9 /* opencv2.framework */; };
-		BD3E35331EAE0E9400DC1FB9 /* tesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3E352B1EAE0DA500DC1FB9 /* tesseract.framework */; };
 		BD3E35361EAE0F3600DC1FB9 /* openalpr.conf in Resources */ = {isa = PBXBuildFile; fileRef = BD3E35341EAE0F3600DC1FB9 /* openalpr.conf */; };
 		BD3E35371EAE0F3600DC1FB9 /* runtime_data in Resources */ = {isa = PBXBuildFile; fileRef = BD3E35351EAE0F3600DC1FB9 /* runtime_data */; };
+		BD8C622D1EEF43D500D596B7 /* leptonica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8C62291EEF43D500D596B7 /* leptonica.framework */; };
+		BD8C622E1EEF43D500D596B7 /* openalpr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8C622A1EEF43D500D596B7 /* openalpr.framework */; };
+		BD8C622F1EEF43D500D596B7 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8C622B1EEF43D500D596B7 /* opencv2.framework */; };
+		BD8C62301EEF43D500D596B7 /* tesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8C622C1EEF43D500D596B7 /* tesseract.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,12 +278,12 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8C3D8BA36E3B4A60932A1C1F /* libRNOpenAlpr.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNOpenAlpr.a; sourceTree = "<group>"; };
-		BD3E35281EAE0DA500DC1FB9 /* leptonica.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = leptonica.framework; sourceTree = "<group>"; };
-		BD3E35291EAE0DA500DC1FB9 /* openalpr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openalpr.framework; sourceTree = "<group>"; };
-		BD3E352A1EAE0DA500DC1FB9 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
-		BD3E352B1EAE0DA500DC1FB9 /* tesseract.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tesseract.framework; sourceTree = "<group>"; };
 		BD3E35341EAE0F3600DC1FB9 /* openalpr.conf */ = {isa = PBXFileReference; lastKnownFileType = text; name = openalpr.conf; path = openalpr.framework/openalpr.conf; sourceTree = "<group>"; };
 		BD3E35351EAE0F3600DC1FB9 /* runtime_data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = runtime_data; path = openalpr.framework/runtime_data; sourceTree = "<group>"; };
+		BD8C62291EEF43D500D596B7 /* leptonica.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = leptonica.framework; sourceTree = "<group>"; };
+		BD8C622A1EEF43D500D596B7 /* openalpr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openalpr.framework; sourceTree = "<group>"; };
+		BD8C622B1EEF43D500D596B7 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		BD8C622C1EEF43D500D596B7 /* tesseract.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tesseract.framework; sourceTree = "<group>"; };
 		C880534B2E6C40EAB7671986 /* RNOpenAlpr.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNOpenAlpr.xcodeproj; path = "../node_modules/react-native-openalpr/ios/RNOpenAlpr.xcodeproj"; sourceTree = "<group>"; };
 		E8E79FAF5DD74E259EDFCABA /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
 		F79B3CFAA07242CAB58E50EE /* libRCTCamera.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTCamera.a; sourceTree = "<group>"; };
@@ -313,14 +309,14 @@
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
-				BD3E352F1EAE0DA500DC1FB9 /* tesseract.framework in Frameworks */,
+				BD8C62301EEF43D500D596B7 /* tesseract.framework in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
-				BD3E352E1EAE0DA500DC1FB9 /* opencv2.framework in Frameworks */,
-				BD3E352C1EAE0DA500DC1FB9 /* leptonica.framework in Frameworks */,
+				BD8C622F1EEF43D500D596B7 /* opencv2.framework in Frameworks */,
+				BD8C622D1EEF43D500D596B7 /* leptonica.framework in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				BD3E352D1EAE0DA500DC1FB9 /* openalpr.framework in Frameworks */,
+				BD8C622E1EEF43D500D596B7 /* openalpr.framework in Frameworks */,
 				3C4118885F614474ACEB5896 /* libRCTCamera.a in Frameworks */,
 				8C34021E43FD411BA4A156FD /* libRNOpenAlpr.a in Frameworks */,
 			);
@@ -345,10 +341,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD3E35301EAE0E9400DC1FB9 /* leptonica.framework in Frameworks */,
-				BD3E35311EAE0E9400DC1FB9 /* openalpr.framework in Frameworks */,
-				BD3E35321EAE0E9400DC1FB9 /* opencv2.framework in Frameworks */,
-				BD3E35331EAE0E9400DC1FB9 /* tesseract.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,12 +503,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				BD8C62291EEF43D500D596B7 /* leptonica.framework */,
+				BD8C622A1EEF43D500D596B7 /* openalpr.framework */,
+				BD8C622B1EEF43D500D596B7 /* opencv2.framework */,
+				BD8C622C1EEF43D500D596B7 /* tesseract.framework */,
 				BD3E35341EAE0F3600DC1FB9 /* openalpr.conf */,
 				BD3E35351EAE0F3600DC1FB9 /* runtime_data */,
-				BD3E35281EAE0DA500DC1FB9 /* leptonica.framework */,
-				BD3E35291EAE0DA500DC1FB9 /* openalpr.framework */,
-				BD3E352A1EAE0DA500DC1FB9 /* opencv2.framework */,
-				BD3E352B1EAE0DA500DC1FB9 /* tesseract.framework */,
 				13B07FAE1A68108700A75B9A /* CameraApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* CameraAppTests */,
@@ -1121,6 +1113,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = TKN36YX4Y2;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1150,6 +1143,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TKN36YX4Y2;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

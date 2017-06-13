@@ -31,6 +31,13 @@ export default class HomeScreen extends React.Component {
 
 					<TouchableHighlight
 						style={styles.menuItem}
+						onPress={ () => navigate('ALPRCamera') }
+					>
+						<Text style={styles.menuItemtext}>ALPR Camera</Text>
+					</TouchableHighlight>
+
+					<TouchableHighlight
+						style={styles.menuItem}
 						onPress={ () => navigate('About') }
 					>
 						<Text style={styles.menuItemtext}>About</Text>
